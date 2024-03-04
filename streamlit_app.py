@@ -8,7 +8,7 @@ from sklearn import metrics
 
 import streamlit as st
 
-df_orig = pd.read_csv(r'C:\Users\krish\Desktop\SIH\Dataset Self_1.csv')
+df_orig = pd.read_csv(r "//Dataset file path goes here//")
 df = df_orig.copy()
 df.dropna(axis = 1, inplace = True)
 
